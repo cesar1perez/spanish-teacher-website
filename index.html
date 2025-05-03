@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases de Español con César Arturo Pérez González</title>
+    <style>
+        body {
+            font-family: 'Helvetica', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #E6ECEF;
+            color: #333;
+        }
+        header {
+            background-color: #003087;
+            color: white;
+            text-align: center;
+            padding: 3em 1em;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 0.5em;
+        }
+        nav {
+            background-color: #0040C1;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1.5em;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            color: #D4A017;
+        }
+        section {
+            max-width: 900px;
+            margin: 2em auto;
+            padding: 2em;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .welcome, .about, .courses {
+            margin-bottom: 2em;
+        }
+        h2 {
+            color: #003087;
+            font-size: 1.8em;
+            margin-bottom: 0.5em;
+        }
+        .welcome p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #D4A017;
+            color: #003087;
+            padding: 0.8em 1.5em;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 1em;
+        }
+        .btn:hover {
+            background-color: #B58900;
+            color: white;
+        }
+        .courses ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            font-size: 1.1em;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            max-width: 500px;
+        }
+        input, textarea {
+            padding: 0.8em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        button {
+            background-color: #003087;
+            color: white;
+            padding: 0.8em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        button:hover {
+            background-color: #D4A017;
+            color: #003087;
+        }
+        footer {
+            background-color: #003087;
+            color: white;
+            text-align: center;
+            padding: 1.5em;
+            margin-top: 2em;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            section {
+                margin: 1em;
+                padding: 1.5em;
+            }
+            nav a {
+                margin: 0 0.5em;
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Clases de Español con César Arturo Pérez González</h1>
+        <p>Aprende español desde cero con un profesor nativo de México</p>
+    </header>
+    <nav>
+        <a href="#welcome">Bienvenida</a>
+        <a href="#about">Sobre mí</a>
+        <a href="#courses">Cursos</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <section id="welcome" class="welcome">
+        <h2>Bienvenidos a mi aula virtual</h2>
+        <p>¡Hola! Soy César Arturo Pérez González, un profesor de español nativo de México, apasionado por compartir mi idioma y cultura con estudiantes de todo el mundo. Mis clases están diseñadas para principiantes absolutos, especialmente hablantes de inglés que quieren aprender español de manera práctica y divertida. Con un enfoque en la conversación y la cultura mexicana, te ayudaré a hablar español con confianza desde la primera clase.</p>
+        <p>Ya sea que quieras viajar a México, disfrutar de nuestra comida y tradiciones, o comunicarte en español por trabajo, estoy aquí para guiarte. ¡Empecemos este viaje juntos!</p>
+    </section>
+    <section id="about" class="about">
+        <h2>Sobre mí</h2>
+        <p>Como mexicano, he crecido hablando español y viviendo la rica cultura de mi país. Aunque soy nuevo en la enseñanza formal, mi experiencia como hablante nativo y mi nivel intermedio de inglés me permiten explicar conceptos claros y conectar con estudiantes de habla inglesa. Mis clases son dinámicas, personalizadas y llenas de ejemplos auténticos, como pedir tacos en un mercado o charlar sobre el Día de los Muertos.</p>
+        <p><strong>Encuéntrame en:</strong> 
+            <a href="[Enlace a Preply]" target="_blank">Preply</a> | 
+            <a href="[Enlace a Italki]" target="_blank">Italki</a>
+        </p>
+    </section>
+    <section id="courses" class="courses">
+        <h2>Cursos que imparto</h2>
+        <p>Actualmente ofrezco un curso de español para principiantes absolutos (Nivel A1), perfecto para quienes quieren empezar desde cero.</p>
+        <ul>
+            <li><strong>Nivel A1 - Español para principiantes</strong>: Curso de 10 semanas (opción intensiva de 8 semanas) enfocado en saludos, compras, comida, viajes y más.</li>
+        </ul>
+        <a href="temario-nivel-1.html" class="btn">Ver temario completo</a>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <p>¿Listo para aprender español? Escríbeme y organicemos tu primera clase.</p>
+        <form action="https://formspree.io/f/[tu-ID]" method="POST">
+            <input type="text" name="name" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="Correo electrónico" required>
+            <textarea name="message" placeholder="Mensaje" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2025 César Arturo Pérez González. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
